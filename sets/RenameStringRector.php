@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Generic\Rector\Class_\ActionInjectionToConstructorInjectionRector::class);
+    $containerConfigurator->services()->set(\Rector\Renaming\Rector\String_\RenameStringRector::class);
 };

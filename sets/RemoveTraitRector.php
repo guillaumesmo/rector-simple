@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Generic\Rector\Class_\RemoveTraitRector::class);
+    $containerConfigurator->services()->set(\Rector\Removing\Rector\Class_\RemoveTraitRector::class);
 };

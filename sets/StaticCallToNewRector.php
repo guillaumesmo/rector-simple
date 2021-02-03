@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Renaming\Rector\ClassConstFetch\RenameClassConstantRector::class);
+    $containerConfigurator->services()->set(\Rector\Transform\Rector\StaticCall\StaticCallToNewRector::class);
 };

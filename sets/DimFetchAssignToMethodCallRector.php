@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Generic\Rector\Assign\DimFetchAssignToMethodCallRector::class);
+    $containerConfigurator->services()->set(\Rector\Transform\Rector\Assign\DimFetchAssignToMethodCallRector::class);
 };

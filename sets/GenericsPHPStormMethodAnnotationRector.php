@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Composer\Rector\MovePackageToRequireDevRector::class);
+    $containerConfigurator->services()->set(\Rector\Generics\Rector\Class_\GenericsPHPStormMethodAnnotationRector::class);
 };
