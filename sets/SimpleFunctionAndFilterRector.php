@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Twig\Rector\Return_\SimpleFunctionAndFilterRector::class);
+    $containerConfigurator->services()->set(\Rector\Symfony\Rector\Return_\SimpleFunctionAndFilterRector::class);
 };
