@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e03eaecfc2a137ad50af8d34097cdbd3",
+    "content-hash": "ffb5caa6aee45180a2f16f3543fc7742",
     "packages": [
         {
             "name": "composer/semver",
@@ -1215,16 +1215,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.9.30",
+            "version": "0.9.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "8c079420dc169a6398cb6a99ee3f5e5015898923"
+                "reference": "cbbd008f50e3365bc48ddc74ba0d9190854a8fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/8c079420dc169a6398cb6a99ee3f5e5015898923",
-                "reference": "8c079420dc169a6398cb6a99ee3f5e5015898923",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/cbbd008f50e3365bc48ddc74ba0d9190854a8fb3",
+                "reference": "cbbd008f50e3365bc48ddc74ba0d9190854a8fb3",
                 "shasum": ""
             },
             "require": {
@@ -1412,7 +1412,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.9.30"
+                "source": "https://github.com/rectorphp/rector/tree/0.9.31"
             },
             "funding": [
                 {
@@ -1420,7 +1420,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-21T00:05:22+00:00"
+            "time": "2021-02-22T10:01:01+00:00"
         },
         {
             "name": "sebastian/diff",
