@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Legacy\Rector\FileWithoutNamespace\FunctionToStaticMethodRector::class);
+    $containerConfigurator->services()->set(\Rector\Transform\Rector\FileWithoutNamespace\FunctionToStaticMethodRector::class);
 };

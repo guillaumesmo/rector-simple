@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Generic\Rector\ClassMethod\AddMethodParentCallRector::class);
+    $containerConfigurator->services()->set(\Rector\DependencyInjection\Rector\ClassMethod\AddMethodParentCallRector::class);
 };
