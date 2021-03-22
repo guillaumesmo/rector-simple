@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "087cfca6b83206c8d59ee3c236f37178",
+    "content-hash": "51e426a50085f8c7bd4597dd16044e4f",
     "packages": [
         {
             "name": "composer/semver",
@@ -846,16 +846,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.82",
+            "version": "0.12.81",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11"
+                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
-                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
+                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +886,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.82"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.81"
             },
             "funding": [
                 {
@@ -902,7 +902,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-19T06:08:17+00:00"
+            "time": "2021-03-08T22:03:02+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
@@ -1209,16 +1209,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.9.32",
+            "version": "0.9.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "ed14426f8d778c34c0fe6e83c5a1fe8a1006e73a"
+                "reference": "5ecfec4ae83f6187f09584579cacee08658dc3a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/ed14426f8d778c34c0fe6e83c5a1fe8a1006e73a",
-                "reference": "ed14426f8d778c34c0fe6e83c5a1fe8a1006e73a",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/5ecfec4ae83f6187f09584579cacee08658dc3a9",
+                "reference": "5ecfec4ae83f6187f09584579cacee08658dc3a9",
                 "shasum": ""
             },
             "require": {
@@ -1233,8 +1233,8 @@
                 "nette/utils": "^3.2",
                 "nikic/php-parser": "^4.10.4",
                 "php": "^7.3|^8.0",
-                "phpstan/phpdoc-parser": "^0.4.9",
-                "phpstan/phpstan": "^0.12.76",
+                "phpstan/phpdoc-parser": "^0.4.9, <0.5",
+                "phpstan/phpstan": "^0.12.76, <0.12.82",
                 "phpstan/phpstan-phpunit": "^0.12.17",
                 "psr/simple-cache": "^1.0",
                 "sebastian/diff": "^4.0.4",
@@ -1407,7 +1407,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.9.32"
+                "source": "https://github.com/rectorphp/rector/tree/0.9.33"
             },
             "funding": [
                 {
@@ -1415,7 +1415,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-19T19:56:29+00:00"
+            "time": "2021-03-19T22:46:33+00:00"
         },
         {
             "name": "sebastian/diff",
