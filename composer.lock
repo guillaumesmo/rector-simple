@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44209c129a38675e0c6089c47c6a36dd",
+    "content-hash": "f08e14532290df5d9183b6e1591ac95f",
     "packages": [
         {
             "name": "composer/semver",
@@ -1240,16 +1240,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.10.2",
+            "version": "0.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "60b58421e35ef0319b6564b79d4efa29fc075d27"
+                "reference": "c13d234e7d70166ebc3d6d9dca226679b566f6ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/60b58421e35ef0319b6564b79d4efa29fc075d27",
-                "reference": "60b58421e35ef0319b6564b79d4efa29fc075d27",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/c13d234e7d70166ebc3d6d9dca226679b566f6ad",
+                "reference": "c13d234e7d70166ebc3d6d9dca226679b566f6ad",
                 "shasum": ""
             },
             "require": {
@@ -1266,14 +1266,14 @@
                 "nette/utils": "^3.2",
                 "nikic/php-parser": "^4.10.4",
                 "php": "^7.3|^8.0",
-                "phpstan/phpdoc-parser": "^0.5.1",
+                "phpstan/phpdoc-parser": "^0.5.2",
                 "phpstan/phpstan": "^0.12.82",
                 "phpstan/phpstan-phpunit": "^0.12.18",
-                "rector/rector-cakephp": "^0.10.0",
+                "rector/rector-cakephp": "^0.10.1",
                 "rector/rector-doctrine": "^0.10.0",
                 "rector/rector-laravel": "^0.10.0",
                 "rector/rector-nette": "^0.10.0",
-                "rector/rector-phpunit": "^0.10.0",
+                "rector/rector-phpunit": "^0.10.2",
                 "rector/rector-symfony": "^0.10.0",
                 "sebastian/diff": "^4.0.4",
                 "symfony/console": "^4.4.8|^5.1",
@@ -1359,7 +1359,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.10.2"
+                "source": "https://github.com/rectorphp/rector/tree/0.10.3"
             },
             "funding": [
                 {
@@ -1367,7 +1367,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T18:53:39+00:00"
+            "time": "2021-03-23T20:59:28+00:00"
         },
         {
             "name": "rector/rector-cakephp",
