@@ -3,5 +3,5 @@
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator) {
-    $containerConfigurator->services()->set(\Rector\Privatization\Rector\ClassMethod\MakeOnlyUsedByChildrenProtectedRector::class);
+    $containerConfigurator->services()->set(\Rector\Arguments\Rector\MethodCall\ValueObjectWrapArgRector::class);
 };
