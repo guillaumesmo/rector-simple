@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c737c79603aeccded4fd11ff9f66eac0",
+    "content-hash": "4960e7b29ef90f10adb68e4ef23284a0",
     "packages": [
         {
             "name": "composer/semver",
@@ -1091,16 +1091,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.10.5",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "b03fa60c521f9e067bf8b3454db5b3b77edf398e"
+                "reference": "9c147eb846eb28f66adb38683825dbc990fa17ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/b03fa60c521f9e067bf8b3454db5b3b77edf398e",
-                "reference": "b03fa60c521f9e067bf8b3454db5b3b77edf398e",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9c147eb846eb28f66adb38683825dbc990fa17ea",
+                "reference": "9c147eb846eb28f66adb38683825dbc990fa17ea",
                 "shasum": ""
             },
             "require": {
@@ -1209,7 +1209,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.10.5"
+                "source": "https://github.com/rectorphp/rector/tree/0.10.6"
             },
             "funding": [
                 {
@@ -1217,7 +1217,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-13T18:58:34+00:00"
+            "time": "2021-04-14T02:35:28+00:00"
         },
         {
             "name": "rector/rector-cakephp",
