@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "218bbea1dea776243eec35c587aaf2cc",
+    "content-hash": "cf7f4d568861541cbfcafb7966017954",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1160,16 +1160,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.10.13",
+            "version": "0.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "3901ae3d1fe8ca3625251d851836f661cd2ba01a"
+                "reference": "07a0d4edbe542cfac73bb7129b0117bdb11c7050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/3901ae3d1fe8ca3625251d851836f661cd2ba01a",
-                "reference": "3901ae3d1fe8ca3625251d851836f661cd2ba01a",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/07a0d4edbe542cfac73bb7129b0117bdb11c7050",
+                "reference": "07a0d4edbe542cfac73bb7129b0117bdb11c7050",
                 "shasum": ""
             },
             "require": {
@@ -1215,7 +1215,7 @@
                 "webmozart/assert": "^1.10"
             },
             "replace": {
-                "rector/rector": "self.version"
+                "rector/rector-prefixed": "self.version"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.18.6",
@@ -1283,7 +1283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.10.13"
+                "source": "https://github.com/rectorphp/rector/tree/0.10.14"
             },
             "funding": [
                 {
@@ -1291,7 +1291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-29T08:17:30+00:00"
+            "time": "2021-04-29T09:00:02+00:00"
         },
         {
             "name": "rector/rector-cakephp",
