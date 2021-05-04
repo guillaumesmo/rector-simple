@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f21282c3c38a75173154e7f4d0149cea",
+    "content-hash": "ea828016d8094d4002837fce80958eeb",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -791,16 +791,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.10.5",
+            "version": "v4.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4432ba399e47c66624bc73c8c0f811e5c109576f"
+                "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4432ba399e47c66624bc73c8c0f811e5c109576f",
-                "reference": "4432ba399e47c66624bc73c8c0f811e5c109576f",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c6d052fc58cb876152f89f532b95a8d7907e7f0e",
+                "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e",
                 "shasum": ""
             },
             "require": {
@@ -841,9 +841,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.5"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.4"
             },
-            "time": "2021-05-03T19:11:20+00:00"
+            "time": "2020-12-20T10:01:03+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -1160,16 +1160,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.10.17",
+            "version": "0.10.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "ef5167c528cb4b2ca983adaf5a4cccbcad2547b7"
+                "reference": "21bf53f2ec4a8e686f8cc437e7379eade99c0705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/ef5167c528cb4b2ca983adaf5a4cccbcad2547b7",
-                "reference": "ef5167c528cb4b2ca983adaf5a4cccbcad2547b7",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/21bf53f2ec4a8e686f8cc437e7379eade99c0705",
+                "reference": "21bf53f2ec4a8e686f8cc437e7379eade99c0705",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
                 "nette/caching": "^3.1",
                 "nette/robot-loader": "^3.4",
                 "nette/utils": "^3.2",
-                "nikic/php-parser": "^4.10.4",
+                "nikic/php-parser": "4.10.4",
                 "php": "^7.3|^8.0",
                 "phpstan/phpdoc-parser": "^0.5.4",
                 "phpstan/phpstan": "^0.12.83",
@@ -1283,7 +1283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.10.17"
+                "source": "https://github.com/rectorphp/rector/tree/0.10.18"
             },
             "funding": [
                 {
@@ -1291,7 +1291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-02T22:55:38+00:00"
+            "time": "2021-05-03T21:27:20+00:00"
         },
         {
             "name": "rector/rector-cakephp",
