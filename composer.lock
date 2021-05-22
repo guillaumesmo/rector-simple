@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f0c920ccbb14d36989aff70c92af7cc",
+    "content-hash": "2f9e1c6c1af4932327c87f73f3cbfef6",
     "packages": [
         {
             "name": "phpstan/phpstan",
@@ -68,16 +68,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.11.2",
+            "version": "0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "e29636e79289d2db427d0c2fc19dbbef1185face"
+                "reference": "9987c84c58d681149363a3e55f5e1c68df16c9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e29636e79289d2db427d0c2fc19dbbef1185face",
-                "reference": "e29636e79289d2db427d0c2fc19dbbef1185face",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9987c84c58d681149363a3e55f5e1c68df16c9f6",
+                "reference": "9987c84c58d681149363a3e55f5e1c68df16c9f6",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,8 @@
             },
             "conflict": {
                 "phpstan/phpdoc-parser": "<=0.5.3",
-                "phpstan/phpstan": "<=0.12.82"
+                "phpstan/phpstan": "<=0.12.82",
+                "rector/rector-prefixed": "*"
             },
             "bin": [
                 "bin/rector"
@@ -109,7 +110,7 @@
             "description": "Prefixed and PHP 7.1 downgraded version of rector/rector",
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.11.2"
+                "source": "https://github.com/rectorphp/rector/tree/0.11.3"
             },
             "funding": [
                 {
@@ -117,7 +118,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-14T12:31:19+00:00"
+            "time": "2021-05-17T07:55:27+00:00"
         }
     ],
     "packages-dev": [],
