@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee2f01fde6453be7533c3714062ed673",
+    "content-hash": "6674f9d91631409cc670aa2631fd262b",
     "packages": [
         {
             "name": "phpstan/phpstan",
@@ -68,16 +68,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.11.14",
+            "version": "0.11.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "49dd2ff88bd67d5126557db91c446c322f5bbcef"
+                "reference": "72eb048341cc2b055b5c5976a703aff60ae05792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/49dd2ff88bd67d5126557db91c446c322f5bbcef",
-                "reference": "49dd2ff88bd67d5126557db91c446c322f5bbcef",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/72eb048341cc2b055b5c5976a703aff60ae05792",
+                "reference": "72eb048341cc2b055b5c5976a703aff60ae05792",
                 "shasum": ""
             },
             "require": {
@@ -116,7 +116,7 @@
             "description": "Prefixed and PHP 7.1 downgraded version of rector/rector",
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.11.14"
+                "source": "https://github.com/rectorphp/rector/tree/0.11.15"
             },
             "funding": [
                 {
@@ -124,7 +124,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-05T21:48:47+00:00"
+            "time": "2021-06-07T23:09:52+00:00"
         }
     ],
     "packages-dev": [],
