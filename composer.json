@@ -2,7 +2,7 @@
     "name": "guillaumesmo/rector-simple",
     "type": "project",
     "require": {
-        "rector/rector": "0.11.16"
+        "rector/rector": "0.11.17"
     },
     "scripts": {
         "generate": [
